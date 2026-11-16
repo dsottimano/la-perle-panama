@@ -1,6 +1,56 @@
 {
   "locations": {
-    "header": { "desktop": [{ "label": "Blog", "url": "/posts" }], "tablet": null, "mobile": null },
-    "footer": { "desktop": [], "tablet": null, "mobile": null }
+    "header": {
+      "desktop": [
+        {
+          "label": "Projects",
+          "url": "/projects/"
+        },
+        {
+          "label": "Listings",
+          "url": "/listings/"
+        },
+        {
+          "label": "Find your place",
+          "url": "/find/"
+        },
+        {
+          "label": "About",
+          "url": "/about/"
+        },
+        {
+          "label": "Contact",
+          "url": "/contact/"
+        }
+      ],
+      "tablet": null,
+      "mobile": null
+    },
+    "footer": {
+      "desktop": [
+        {
+          "label": "Projects",
+          "url": "/projects/"
+        },
+        {
+          "label": "Listings",
+          "url": "/listings/"
+        },
+        {
+          "label": "Find your place",
+          "url": "/find/"
+        },
+        {
+          "label": "About",
+          "url": "/about/"
+        },
+        {
+          "label": "Contact",
+          "url": "/contact/"
+        }
+      ],
+      "tablet": null,
+      "mobile": null
+    }
   }
 }

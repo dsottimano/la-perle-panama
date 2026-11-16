@@ -1,0 +1,100 @@
+{
+  "name": "project",
+  "label": "Project",
+  "fields": [
+    {
+      "name": "title",
+      "label": "Title",
+      "widget": "string"
+    },
+    {
+      "name": "featuredImage",
+      "label": "Featured image",
+      "widget": "image",
+      "required": false
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "widget": "string"
+    },
+    {
+      "name": "summary",
+      "label": "Summary",
+      "widget": "text"
+    },
+    {
+      "name": "gallery",
+      "label": "Gallery",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "image",
+          "label": "Image",
+          "widget": "image"
+        },
+        {
+          "name": "alt",
+          "label": "Alt",
+          "widget": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "widget": "boolean",
+      "required": false,
+      "default": true
+    },
+    {
+      "name": "video",
+      "label": "Video",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "status",
+      "label": "Status",
+      "widget": "select",
+      "options": [
+        "presale",
+        "under-construction",
+        "delivered"
+      ]
+    },
+    {
+      "name": "developer",
+      "label": "Developer",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "deliveryDate",
+      "label": "Delivery date",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "priceFrom",
+      "label": "Starting price (USD)",
+      "widget": "number",
+      "required": false
+    },
+    {
+      "name": "unitTypes",
+      "label": "Unittypes",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "unitsTotal",
+      "label": "Unitstotal",
+      "widget": "number",
+      "required": false
+    }
+  ],
+  "body": true
+}

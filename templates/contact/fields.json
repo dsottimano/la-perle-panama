@@ -1,0 +1,47 @@
+{
+  "name": "contact",
+  "label": "Contact",
+  "fields": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "widget": "string"
+    },
+    {
+      "name": "headline",
+      "label": "Headline",
+      "widget": "string"
+    },
+    {
+      "name": "intro",
+      "label": "Intro",
+      "widget": "text"
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "widget": "string"
+    },
+    {
+      "name": "phone",
+      "label": "Phone",
+      "widget": "string"
+    },
+    {
+      "name": "phoneUrl",
+      "label": "Phoneurl",
+      "widget": "string"
+    },
+    {
+      "name": "whatsappUrl",
+      "label": "Whatsappurl",
+      "widget": "string"
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "widget": "string"
+    }
+  ],
+  "body": true
+}

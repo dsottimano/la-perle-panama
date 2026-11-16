@@ -1,0 +1,46 @@
+{
+  "name": "listings",
+  "label": "Listings",
+  "fields": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "headline",
+      "label": "Headline",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "intro",
+      "label": "Intro",
+      "widget": "text",
+      "required": false
+    },
+    {
+      "name": "emptyMessage",
+      "label": "Emptymessage",
+      "widget": "text",
+      "required": false
+    }
+  ],
+  "listing": {
+    "of": "listings",
+    "item": [
+      "title",
+      "featuredImage",
+      "location",
+      "summary",
+      "price",
+      "listingType",
+      "listingStatus",
+      "bedrooms",
+      "bathrooms",
+      "areaM2",
+      "propertyType"
+    ]
+  }
+}

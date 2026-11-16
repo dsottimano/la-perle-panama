@@ -1,0 +1,112 @@
+{
+  "name": "listing",
+  "label": "Listing",
+  "fields": [
+    {
+      "name": "title",
+      "label": "Title",
+      "widget": "string"
+    },
+    {
+      "name": "featuredImage",
+      "label": "Featured image",
+      "widget": "image"
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "widget": "string"
+    },
+    {
+      "name": "summary",
+      "label": "Summary",
+      "widget": "text"
+    },
+    {
+      "name": "gallery",
+      "label": "Gallery",
+      "widget": "list",
+      "required": false,
+      "fields": [
+        {
+          "name": "image",
+          "label": "Image",
+          "widget": "image"
+        },
+        {
+          "name": "alt",
+          "label": "Alt",
+          "widget": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "widget": "boolean",
+      "required": false,
+      "default": true
+    },
+    {
+      "name": "listingType",
+      "label": "Listingtype",
+      "widget": "select",
+      "options": [
+        "sale",
+        "rent"
+      ]
+    },
+    {
+      "name": "listingStatus",
+      "label": "Listingstatus",
+      "widget": "select",
+      "options": [
+        "active",
+        "reserved",
+        "sold",
+        "rented"
+      ]
+    },
+    {
+      "name": "price",
+      "label": "Price (USD)",
+      "widget": "number"
+    },
+    {
+      "name": "bedrooms",
+      "label": "Bedrooms",
+      "widget": "number",
+      "required": false
+    },
+    {
+      "name": "bathrooms",
+      "label": "Bathrooms",
+      "widget": "number",
+      "required": false
+    },
+    {
+      "name": "areaM2",
+      "label": "Area (m\u00b2)",
+      "widget": "number"
+    },
+    {
+      "name": "propertyType",
+      "label": "Propertytype",
+      "widget": "string"
+    },
+    {
+      "name": "region",
+      "label": "Region slug",
+      "widget": "string",
+      "required": false
+    },
+    {
+      "name": "flowTags",
+      "label": "Lifestyle tags",
+      "widget": "list",
+      "required": false
+    }
+  ],
+  "body": true
+}
