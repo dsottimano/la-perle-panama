@@ -33,3 +33,12 @@ body:has(.lp-page-find) .lp-header .lp-nav-link[href="/find/"]{display:none}body
 @media(min-width:1280px){.lp-header{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);grid-template-rows:128px}.lp-header .lp-desktop-nav{grid-column:2;grid-row:1}}
 @media(min-width:768px) and (max-width:1279px){.lp-header{grid-template-columns:1fr 1fr 1fr;grid-template-rows:110px 56px}.lp-header .lp-desktop-nav{grid-column:1/-1;grid-row:2;justify-self:center}}
 @media(max-width:767px){.lp-header{grid-template-columns:auto 1fr auto;gap:16px}.lp-header .lp-menu{grid-column:2;grid-row:1;justify-self:center}.lp-header .lp-logo{width:148.2px}.lp-header-contact{font-size:10px}}
+
+/* One page gutter: chrome, full-width sections, detail pages and quiz agree. */
+:root{--lp-gutter:max(24px,6vw)}
+body .lp-header,body .lp-section,body .lp-quiz-callout,body .lp-detail-top,body .lp-gallery,body .lp-footer,body .flow-shell .qcard{padding-inline:var(--lp-gutter)}
+body .lp-menu nav{padding-inline:var(--lp-gutter)}
+body .lp-hero-content{left:var(--lp-gutter);right:var(--lp-gutter);max-width:none}.lp-hero-content h1{max-width:900px}body .lp-hero-note{left:var(--lp-gutter)}
+body .lp-closing{max-width:none}.lp-closing h2{max-width:900px;margin-inline:auto}
+.lp-intro{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);align-items:center}.lp-agency-visual{min-width:0}.lp-agency-visual>.lp-kicker{margin:0 0 20px}.lp-agency-media{width:100%;aspect-ratio:4/5}.lp-agency-media .lp-poster,.lp-agency-media .lp-video{object-position:50% 50%}
+@media(max-width:767px){.lp-intro{grid-template-columns:1fr;gap:32px}.lp-agency-media{aspect-ratio:4/5;max-height:440px}}

@@ -33,3 +33,13 @@ The header now puts the logo left, five divided links in the centre, and contact
 Contact has a freshly authored seven-shape composition inspired by Hyperplexed’s Living Shapes reference. It uses the local founder portrait, La Perle colours, three layouts and four roundness sets. A reserved golden-ratio frame contains layout/paint; clip-path morphing avoids geometric layout changes. Its 981-byte inline controller advances every 3 seconds, only while in view and the tab is visible. Pause, offscreen, simulated hidden-document, and reduced-motion checks passed. Reduced motion resets to layout/roundness 1.
 
 Contact Lighthouse mobile: 99 performance, 100 accessibility, 100 best practices, 100 SEO; LCP 1.7s, CLS 0, TBT 0ms. Build and validator passed (zero errors, six advisory script/stylesheet warnings). Reports /tmp/lp-contact-lighthouse.report.html and .json; screenshots /tmp/lp-contact-review/. The built preview remains on port 4321.
+
+## Agency media and unified gutters
+
+The agency section now uses owner-supplied panamacasco footage in a reserved 4:5 portrait frame, with the kicker above and copy to the right. Mobile stacks the media above the text, capped at 440px high. CSS transform parallax applies to the poster/video behind feature and reduced-motion guards.
+
+All templates use --lp-gutter: max(24px, 6vw), including header, hero, page sections, detail wrappers, galleries, footer and quiz. Measured logo/hero/agency/right-action alignment at 390/768/1440/1880 is respectively 24/46.08/86.4/112.8px (subpixel rounding only). All seven published page types passed gutter and overflow checks. Screenshots: /tmp/lp-gutter-review/.
+
+Home uses a 28,896-byte mobile hero poster. Video poster attributes are assigned from the already-rendered image only on intersection; no eager video-poster requests compete with the hero. Normal initial load requests only the hero MP4; Casco loads on scrolling to its section. Save-Data/reduced motion request no MP4s.
+
+Final home Lighthouse mobile: 99 performance, 100 accessibility/best practices/SEO, LCP 1.7s, CLS 0, TBT 0ms. Report: /tmp/lp-gutter-final.report.html and .json. Production build and validator passed, no commits, existing port 4321 preview retained.
