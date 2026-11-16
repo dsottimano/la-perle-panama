@@ -1,0 +1,42 @@
+{
+  "name": "about",
+  "label": "About",
+  "fields": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "widget": "string"
+    },
+    {
+      "name": "headline",
+      "label": "Headline",
+      "widget": "string"
+    },
+    {
+      "name": "intro",
+      "label": "Intro",
+      "widget": "text"
+    },
+    {
+      "name": "portrait",
+      "label": "Portrait",
+      "widget": "image"
+    },
+    {
+      "name": "portraitAlt",
+      "label": "Portraitalt",
+      "widget": "string"
+    },
+    {
+      "name": "founderName",
+      "label": "Foundername",
+      "widget": "string"
+    },
+    {
+      "name": "founderRole",
+      "label": "Founderrole",
+      "widget": "string"
+    }
+  ],
+  "body": true
+}

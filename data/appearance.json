@@ -1,1 +1,17 @@
-{ "theme": "freehold", "logo": "/images/uploads/logo-laperle.png" }
+{
+  "theme": "freehold",
+  "logo": "/images/uploads/logo-laperle.png",
+  "brand": {
+    "scheme": "light",
+    "radius": "0px",
+    "motion": "on",
+    "colors": {
+      "bg": "#faf8f4",
+      "surface": "#f1ece1",
+      "ink": "#16242c",
+      "muted": "#58636a",
+      "accent": "#b6452f",
+      "border": "#e3dccd"
+    }
+  }
+}

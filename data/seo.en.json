@@ -1,15 +1,15 @@
 {
-  "siteName": "My Site",
-  "titleTemplate": "%s \u00b7 My Site",
-  "defaultTitle": "My Site",
-  "defaultDescription": "A personal site.",
-  "defaultOgImage": "",
+  "siteName": "La Perle Panama",
+  "titleTemplate": "%s · La Perle Panama",
+  "defaultTitle": "Panama Real Estate",
+  "defaultDescription": "Independent advice and carefully selected properties in Panama. La Perle Panama helps international buyers, investors and families find opportunities that fit their plans.",
+  "defaultOgImage": "/images/uploads/01KTWQ9DVNS12WR5P6ZXF6NJ49.jpg",
   "locale": "en_US",
   "twitter": "",
   "twitterCreator": "",
   "organization": {
-    "name": "My Site",
-    "logo": "",
+    "name": "La Perle Panama",
+    "logo": "/images/uploads/logo-laperle.png",
     "sameAs": []
   }
 }

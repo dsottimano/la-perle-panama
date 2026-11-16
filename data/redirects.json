@@ -1,1 +1,314 @@
-{ "redirects": [] }
+{
+  "redirects": [
+    {
+      "from": "/listings/apartamento-costa-del-este-alquiler",
+      "to": "/listings/costa-del-este-family-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/listings/apartamento-costa-del-este-alquiler/",
+      "to": "/listings/costa-del-este-family-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/listings/apartamento-punta-pacifica-vista-mar",
+      "to": "/listings/punta-pacifica-ocean-view-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/listings/apartamento-punta-pacifica-vista-mar/",
+      "to": "/listings/punta-pacifica-ocean-view-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/listings/casa-boquete-tierras-altas",
+      "to": "/listings/boquete-mountain-home/",
+      "status": 301
+    },
+    {
+      "from": "/listings/casa-boquete-tierras-altas/",
+      "to": "/listings/boquete-mountain-home/",
+      "status": 301
+    },
+    {
+      "from": "/listings/casa-playa-pedasi-venao",
+      "to": "/listings/pedasi-beach-home/",
+      "status": 301
+    },
+    {
+      "from": "/listings/casa-playa-pedasi-venao/",
+      "to": "/listings/pedasi-beach-home/",
+      "status": 301
+    },
+    {
+      "from": "/listings/loft-casco-antiguo-colonial",
+      "to": "/listings/casco-antiguo-restored-loft/",
+      "status": 301
+    },
+    {
+      "from": "/listings/loft-casco-antiguo-colonial/",
+      "to": "/listings/casco-antiguo-restored-loft/",
+      "status": 301
+    },
+    {
+      "from": "/listings/lote-bocas-del-toro-isla",
+      "to": "/listings/bocas-del-toro-waterfront-land/",
+      "status": 301
+    },
+    {
+      "from": "/listings/lote-bocas-del-toro-isla/",
+      "to": "/listings/bocas-del-toro-waterfront-land/",
+      "status": 301
+    },
+    {
+      "from": "/listings/villa-coronado-frente-al-mar",
+      "to": "/listings/coronado-beachfront-villa/",
+      "status": 301
+    },
+    {
+      "from": "/listings/villa-coronado-frente-al-mar/",
+      "to": "/listings/coronado-beachfront-villa/",
+      "status": 301
+    },
+    {
+      "from": "/properties",
+      "to": "/listings/",
+      "status": 301
+    },
+    {
+      "from": "/properties/",
+      "to": "/listings/",
+      "status": 301
+    },
+    {
+      "from": "/nosotros",
+      "to": "/about/",
+      "status": 301
+    },
+    {
+      "from": "/nosotros/",
+      "to": "/about/",
+      "status": 301
+    },
+    {
+      "from": "/contacto",
+      "to": "/contact/",
+      "status": 301
+    },
+    {
+      "from": "/contacto/",
+      "to": "/contact/",
+      "status": 301
+    },
+    {
+      "from": "/p/apartamento-costa-del-este-alquiler",
+      "to": "/listings/costa-del-este-family-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/apartamento-costa-del-este-alquiler",
+      "to": "/listings/costa-del-este-family-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/p/apartamento-costa-del-este-alquiler/",
+      "to": "/listings/costa-del-este-family-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/apartamento-costa-del-este-alquiler/",
+      "to": "/listings/costa-del-este-family-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/p/apartamento-punta-pacifica-vista-mar",
+      "to": "/listings/punta-pacifica-ocean-view-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/apartamento-punta-pacifica-vista-mar",
+      "to": "/listings/punta-pacifica-ocean-view-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/p/apartamento-punta-pacifica-vista-mar/",
+      "to": "/listings/punta-pacifica-ocean-view-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/apartamento-punta-pacifica-vista-mar/",
+      "to": "/listings/punta-pacifica-ocean-view-apartment/",
+      "status": 301
+    },
+    {
+      "from": "/p/casa-boquete-tierras-altas",
+      "to": "/listings/boquete-mountain-home/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/casa-boquete-tierras-altas",
+      "to": "/listings/boquete-mountain-home/",
+      "status": 301
+    },
+    {
+      "from": "/p/casa-boquete-tierras-altas/",
+      "to": "/listings/boquete-mountain-home/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/casa-boquete-tierras-altas/",
+      "to": "/listings/boquete-mountain-home/",
+      "status": 301
+    },
+    {
+      "from": "/p/casa-playa-pedasi-venao",
+      "to": "/listings/pedasi-beach-home/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/casa-playa-pedasi-venao",
+      "to": "/listings/pedasi-beach-home/",
+      "status": 301
+    },
+    {
+      "from": "/p/casa-playa-pedasi-venao/",
+      "to": "/listings/pedasi-beach-home/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/casa-playa-pedasi-venao/",
+      "to": "/listings/pedasi-beach-home/",
+      "status": 301
+    },
+    {
+      "from": "/p/loft-casco-antiguo-colonial",
+      "to": "/listings/casco-antiguo-restored-loft/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/loft-casco-antiguo-colonial",
+      "to": "/listings/casco-antiguo-restored-loft/",
+      "status": 301
+    },
+    {
+      "from": "/p/loft-casco-antiguo-colonial/",
+      "to": "/listings/casco-antiguo-restored-loft/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/loft-casco-antiguo-colonial/",
+      "to": "/listings/casco-antiguo-restored-loft/",
+      "status": 301
+    },
+    {
+      "from": "/p/lote-bocas-del-toro-isla",
+      "to": "/listings/bocas-del-toro-waterfront-land/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/lote-bocas-del-toro-isla",
+      "to": "/listings/bocas-del-toro-waterfront-land/",
+      "status": 301
+    },
+    {
+      "from": "/p/lote-bocas-del-toro-isla/",
+      "to": "/listings/bocas-del-toro-waterfront-land/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/lote-bocas-del-toro-isla/",
+      "to": "/listings/bocas-del-toro-waterfront-land/",
+      "status": 301
+    },
+    {
+      "from": "/p/villa-coronado-frente-al-mar",
+      "to": "/listings/coronado-beachfront-villa/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/villa-coronado-frente-al-mar",
+      "to": "/listings/coronado-beachfront-villa/",
+      "status": 301
+    },
+    {
+      "from": "/p/villa-coronado-frente-al-mar/",
+      "to": "/listings/coronado-beachfront-villa/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/villa-coronado-frente-al-mar/",
+      "to": "/listings/coronado-beachfront-villa/",
+      "status": 301
+    },
+    {
+      "from": "/propiedades",
+      "to": "/listings/",
+      "status": 301
+    },
+    {
+      "from": "/propiedades/",
+      "to": "/listings/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties",
+      "to": "/listings/",
+      "status": 301
+    },
+    {
+      "from": "/en/properties/",
+      "to": "/listings/",
+      "status": 301
+    },
+    {
+      "from": "/en",
+      "to": "/",
+      "status": 301
+    },
+    {
+      "from": "/en/",
+      "to": "/",
+      "status": 301
+    },
+    {
+      "from": "/en/about",
+      "to": "/about/",
+      "status": 301
+    },
+    {
+      "from": "/en/about/",
+      "to": "/about/",
+      "status": 301
+    },
+    {
+      "from": "/en/contact",
+      "to": "/contact/",
+      "status": 301
+    },
+    {
+      "from": "/en/contact/",
+      "to": "/contact/",
+      "status": 301
+    },
+    {
+      "from": "/encuentra",
+      "to": "/find/",
+      "status": 301
+    },
+    {
+      "from": "/encuentra/",
+      "to": "/find/",
+      "status": 301
+    },
+    {
+      "from": "/en/find",
+      "to": "/find/",
+      "status": 301
+    },
+    {
+      "from": "/en/find/",
+      "to": "/find/",
+      "status": 301
+    }
+  ]
+}

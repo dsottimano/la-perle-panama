@@ -1,0 +1,90 @@
+{
+  "name": "home",
+  "label": "Home",
+  "fields": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "widget": "string"
+    },
+    {
+      "name": "headline",
+      "label": "Headline",
+      "widget": "string"
+    },
+    {
+      "name": "subheading",
+      "label": "Subheading",
+      "widget": "text"
+    },
+    {
+      "name": "introEyebrow",
+      "label": "Introeyebrow",
+      "widget": "string"
+    },
+    {
+      "name": "introTitle",
+      "label": "Introtitle",
+      "widget": "string"
+    },
+    {
+      "name": "introText",
+      "label": "Introtext",
+      "widget": "text"
+    },
+    {
+      "name": "projectsTitle",
+      "label": "Projectstitle",
+      "widget": "string"
+    },
+    {
+      "name": "projectsText",
+      "label": "Projectstext",
+      "widget": "text"
+    },
+    {
+      "name": "listingsTitle",
+      "label": "Listingstitle",
+      "widget": "string"
+    },
+    {
+      "name": "listingsText",
+      "label": "Listingstext",
+      "widget": "text"
+    },
+    {
+      "name": "closingTitle",
+      "label": "Closingtitle",
+      "widget": "string"
+    },
+    {
+      "name": "closingText",
+      "label": "Closingtext",
+      "widget": "text"
+    },
+    {
+      "name": "quizEyebrow",
+      "label": "Quiz eyebrow",
+      "widget": "string",
+      "group": "Find your place"
+    },
+    {
+      "name": "quizTitle",
+      "label": "Quiz title",
+      "widget": "string",
+      "group": "Find your place"
+    },
+    {
+      "name": "quizText",
+      "label": "Quiz introduction",
+      "widget": "text",
+      "group": "Find your place"
+    },
+    {
+      "name": "quizButton",
+      "label": "Quiz button",
+      "widget": "string",
+      "group": "Find your place"
+    }
+  ]
+}

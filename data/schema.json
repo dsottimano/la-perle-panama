@@ -250,136 +250,6 @@
         "widget": "slots",
         "required": false,
         "hint": "The editable text/images for the chosen Template. Shape depends on the Template."
-      },
-      {
-        "name": "blocks",
-        "label": "Content blocks",
-        "labelSingular": "Block",
-        "widget": "list",
-        "required": false,
-        "types": [
-          {
-            "name": "hero",
-            "label": "Hero",
-            "fields": [
-              {
-                "name": "heading",
-                "label": "Heading",
-                "widget": "string"
-              },
-              {
-                "name": "subheading",
-                "label": "Subheading",
-                "widget": "text",
-                "required": false
-              },
-              {
-                "name": "image",
-                "label": "Background image",
-                "widget": "image",
-                "required": false
-              },
-              {
-                "name": "ctaText",
-                "label": "Button text",
-                "widget": "string",
-                "required": false
-              },
-              {
-                "name": "ctaUrl",
-                "label": "Button URL",
-                "widget": "string",
-                "required": false
-              }
-            ]
-          },
-          {
-            "name": "text",
-            "label": "Text",
-            "fields": [
-              {
-                "name": "body",
-                "label": "Text",
-                "widget": "text"
-              }
-            ]
-          },
-          {
-            "name": "image",
-            "label": "Image",
-            "fields": [
-              {
-                "name": "image",
-                "label": "Image",
-                "widget": "image"
-              },
-              {
-                "name": "alt",
-                "label": "Alt text",
-                "widget": "string",
-                "required": false
-              },
-              {
-                "name": "caption",
-                "label": "Caption",
-                "widget": "string",
-                "required": false
-              }
-            ]
-          },
-          {
-            "name": "gallery",
-            "label": "Gallery",
-            "fields": [
-              {
-                "name": "images",
-                "label": "Images",
-                "widget": "list",
-                "fields": [
-                  {
-                    "name": "image",
-                    "label": "Image",
-                    "widget": "image"
-                  },
-                  {
-                    "name": "alt",
-                    "label": "Alt text",
-                    "widget": "string",
-                    "required": false
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "cta",
-            "label": "Call to action",
-            "fields": [
-              {
-                "name": "heading",
-                "label": "Heading",
-                "widget": "string",
-                "required": false
-              },
-              {
-                "name": "text",
-                "label": "Text",
-                "widget": "text",
-                "required": false
-              },
-              {
-                "name": "buttonText",
-                "label": "Button text",
-                "widget": "string"
-              },
-              {
-                "name": "buttonUrl",
-                "label": "Button URL",
-                "widget": "string"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -461,6 +331,258 @@
         "required": false
       }
     ]
+  },
+  {
+    "kind": "folder",
+    "name": "listings",
+    "label": "Listings",
+    "labelSingular": "Listing",
+    "folder": "content/listings",
+    "body": "rich",
+    "localized": true,
+    "thumbnail": "featuredImage",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Title",
+        "widget": "string"
+      },
+      {
+        "name": "featuredImage",
+        "label": "Featured image",
+        "widget": "image"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "widget": "string"
+      },
+      {
+        "name": "summary",
+        "label": "Summary",
+        "widget": "text"
+      },
+      {
+        "name": "gallery",
+        "label": "Gallery",
+        "widget": "list",
+        "required": false,
+        "fields": [
+          {
+            "name": "image",
+            "label": "Image",
+            "widget": "image"
+          },
+          {
+            "name": "alt",
+            "label": "Alt",
+            "widget": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "draft",
+        "label": "Draft",
+        "widget": "boolean",
+        "required": false,
+        "default": true
+      },
+      {
+        "name": "listingType",
+        "label": "Listingtype",
+        "widget": "select",
+        "options": [
+          "sale",
+          "rent"
+        ]
+      },
+      {
+        "name": "listingStatus",
+        "label": "Listingstatus",
+        "widget": "select",
+        "options": [
+          "active",
+          "reserved",
+          "sold",
+          "rented"
+        ]
+      },
+      {
+        "name": "price",
+        "label": "Price (USD)",
+        "widget": "number"
+      },
+      {
+        "name": "bedrooms",
+        "label": "Bedrooms",
+        "widget": "number",
+        "required": false
+      },
+      {
+        "name": "bathrooms",
+        "label": "Bathrooms",
+        "widget": "number",
+        "required": false
+      },
+      {
+        "name": "areaM2",
+        "label": "Area (m²)",
+        "widget": "number"
+      },
+      {
+        "name": "propertyType",
+        "label": "Propertytype",
+        "widget": "string"
+      },
+      {
+        "name": "region",
+        "label": "Region slug",
+        "widget": "string",
+        "required": false
+      },
+      {
+        "name": "flowTags",
+        "label": "Lifestyle tags",
+        "widget": "list",
+        "required": false
+      }
+    ],
+    "route": {
+      "base": "listings",
+      "template": "listing",
+      "list": {
+        "template": "listings",
+        "sortBy": "title",
+        "order": "asc",
+        "slots": {
+          "eyebrow": "The portfolio",
+          "headline": "Listings",
+          "intro": "Individual properties for sale and rent across Panama City, the Pacific coast, the Caribbean and the highlands.",
+          "emptyMessage": "Our listings are being prepared. Contact us to discuss what you are looking for."
+        }
+      }
+    }
+  },
+  {
+    "kind": "folder",
+    "name": "projects",
+    "label": "Projects",
+    "labelSingular": "Project",
+    "folder": "content/projects",
+    "body": "rich",
+    "localized": true,
+    "thumbnail": "featuredImage",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Title",
+        "widget": "string"
+      },
+      {
+        "name": "featuredImage",
+        "label": "Featured image",
+        "widget": "image",
+        "required": false
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "widget": "string"
+      },
+      {
+        "name": "summary",
+        "label": "Summary",
+        "widget": "text"
+      },
+      {
+        "name": "gallery",
+        "label": "Gallery",
+        "widget": "list",
+        "required": false,
+        "fields": [
+          {
+            "name": "image",
+            "label": "Image",
+            "widget": "image"
+          },
+          {
+            "name": "alt",
+            "label": "Alt",
+            "widget": "string",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "draft",
+        "label": "Draft",
+        "widget": "boolean",
+        "required": false,
+        "default": true
+      },
+      {
+        "name": "video",
+        "label": "Video",
+        "widget": "string",
+        "required": false
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "widget": "select",
+        "options": [
+          "presale",
+          "under-construction",
+          "delivered"
+        ]
+      },
+      {
+        "name": "developer",
+        "label": "Developer",
+        "widget": "string",
+        "required": false
+      },
+      {
+        "name": "deliveryDate",
+        "label": "Delivery date",
+        "widget": "string",
+        "required": false
+      },
+      {
+        "name": "priceFrom",
+        "label": "Starting price (USD)",
+        "widget": "number",
+        "required": false
+      },
+      {
+        "name": "unitTypes",
+        "label": "Unittypes",
+        "widget": "string",
+        "required": false
+      },
+      {
+        "name": "unitsTotal",
+        "label": "Unitstotal",
+        "widget": "number",
+        "required": false
+      }
+    ],
+    "route": {
+      "base": "projects",
+      "template": "project",
+      "list": {
+        "template": "projects",
+        "sortBy": "title",
+        "order": "asc",
+        "slots": {
+          "eyebrow": "New-build developments",
+          "headline": "Projects",
+          "intro": "Residential buildings and towers offered for presale or sale. Discover new-build opportunities with guidance from La Perle Panama.",
+          "emptyMessage": "Our new-build project collection is being prepared. Contact us to discuss upcoming developments and what fits your plans."
+        }
+      }
+    }
   },
   {
     "kind": "files",

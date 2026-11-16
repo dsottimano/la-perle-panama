@@ -1,0 +1,35 @@
+{
+  "name": "find",
+  "label": "Find your place",
+  "fields": [
+    {
+      "name": "headline",
+      "label": "Headline",
+      "widget": "string"
+    },
+    {
+      "name": "intro",
+      "label": "Introduction",
+      "widget": "string"
+    },
+    {
+      "name": "buttonLabel",
+      "label": "Begin button",
+      "widget": "string"
+    }
+  ],
+  "listing": {
+    "of": "listings",
+    "item": [
+      "title",
+      "featuredImage",
+      "listingType",
+      "listingStatus",
+      "price",
+      "bedrooms",
+      "propertyType",
+      "region",
+      "flowTags"
+    ]
+  }
+}
