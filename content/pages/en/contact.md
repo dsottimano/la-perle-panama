@@ -13,9 +13,7 @@ slots:
   phoneUrl: tel:+50763070790
   whatsappUrl: https://wa.me/50763070790
   location: Panama
+  message: '<p>Tell us what you are trying to achieve — a home, an investment, a move — and we will tell you honestly whether Panama, and which part of it, fits. No catalogues, no pressure.</p><p>We can assist you in English and Spanish.</p>'
 seo:
   metaDescription: Speak directly with Marine Decas on WhatsApp, by phone or by email. We reply within 24 hours, in English and Spanish.
 ---
-
-<p>Tell us what you are trying to achieve — a home, an investment, a move — and we will tell you honestly whether Panama, and which part of it, fits. No catalogues, no pressure.</p>
-<p>We can assist you in English and Spanish.</p>

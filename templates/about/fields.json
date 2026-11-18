@@ -36,7 +36,11 @@
       "name": "founderRole",
       "label": "Founderrole",
       "widget": "string"
+    },
+    {
+      "name": "story",
+      "label": "Our story",
+      "widget": "richtext"
     }
-  ],
-  "body": true
+  ]
 }

@@ -41,7 +41,11 @@
       "name": "location",
       "label": "Location",
       "widget": "string"
+    },
+    {
+      "name": "message",
+      "label": "Message",
+      "widget": "richtext"
     }
-  ],
-  "body": true
+  ]
 }
